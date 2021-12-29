@@ -1,0 +1,130 @@
+@charset "ISO-8859-1";
+
+/* Fonts */
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+ul.navbar-nav.ml-auto {
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+.btn.btn-dark {
+	margin-top: -5px;
+	border: 1px solid #fff;
+}
+
+@media (max-width: 992px) {
+	.btn.btn-dark {
+		margin-top: 0px;
+		float: right;
+		border: 1px solid #fff;
+	}
+}
+
+header.bg-primary.text-white.bg-img {
+	background-image: url("../images/beach_above.jpg");
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	padding-bottom: 145px;
+  	height: 100vh;
+}
+
+header.bg-primary.text-white.bg-img-sm {
+	background-image: url("../images/beach_above.jpg");
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	padding-bottom: 0px;
+    padding-top: 65px;
+}
+
+h1.t-shadow {
+	text-shadow: 2px 2px 6px #000;
+}
+
+#mainNav {
+  background-color: #212529;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 650;
+  opacity: 0.95;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    border: none;
+    background-color: transparent !important;
+  }
+  #mainNav .navbar-brand {
+    font-size: 1.75em;
+    -webkit-transition: all 0.3s;
+    transition: all 0.5s;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link {
+    padding: 0.1em 1em !important;
+  }
+  #mainNav.navbar-shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #212529 !important;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.25em;
+    padding: 12px 0;
+  }
+}
+
+.card {
+	margin-bottom: 15px !important;
+}
+
+#bookinglist li{
+	display:none; 
+	list-style-type: none;
+}
+#loadMore {
+    color:#fff;
+    cursor:pointer;
+}
+#loadMore:hover {
+    color:#fff;
+}
+
+.li-show {
+	display: list-item !important;
+}
+
+h5.card-title {
+	padding-top: 10px;
+}
+
+button.btn.btn-light.shaded {
+	margin-top: -60px;
+	border: 1px solid #0d9a84;
+}
+
+h1#pagetitle {
+	text-align: right;
+	margin-top: -70px;
+}
+
+@media (max-width: 768px) {
+	h1#pagetitle {
+	text-align: left;
+	margin-top: -5px;
+	}
+}
+
+.date {
+	opacity: 0.8;
+}
+
+.error {
+	color: #990000;
+	font-weight: bold;
+	opacity: 0.6;
+}
